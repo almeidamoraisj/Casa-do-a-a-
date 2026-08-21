@@ -31,7 +31,8 @@
       <button class="btn-ghost" onclick="openCart()">Ver carrinho</button>
     </div>
     <div class="hero-badges">
-      <span class="badge">💳 Cartão crédito/débito</span>
+      <span class="badge">💵 Dinheiro</span>
+      <span class="badge">💳 Cartão</span>
       <span class="badge">🔄 Pix</span>
       <span class="badge">🛵 Delivery</span>
     </div>
@@ -150,6 +151,7 @@
         <select id="custPayment" onchange="updateConfirmState()">
           <option value="" selected disabled>Selecione</option>
           <option value="Pix">Pix</option>
+          <option value="Dinheiro">Dinheiro</option>
           <option value="Cartão de crédito">Cartão de crédito</option>
           <option value="Cartão de débito">Cartão de débito</option>
         </select>
