@@ -586,7 +586,7 @@ nav{
 .cart-form select,
 .cart-form textarea{
   font-family:'Nunito', sans-serif;
-  background:rgba(0,0,0,0.22);
+  background:#100419;
   border:1px solid var(--line);
   border-radius:10px;
   padding:12px 14px;
